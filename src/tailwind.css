@@ -1,0 +1,18 @@
+@import '@/tailwind/tail-fonts.css';
+@import '@/tailwind/tail-typo.css';
+@import '@/tailwind/tail-grid.css';
+@import '@/tailwind/tail-colors.css';
+@import '@/tailwind/tail-elements.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* montserrat-regular - latin_cyrillic */
+
+  html, body {
+    @apply font-typo text-sm;
+  }
+  
+}
